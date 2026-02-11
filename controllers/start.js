@@ -8,7 +8,7 @@ const start = {
     logger.debug(info);
 
     logger.info("Start page loading!");
-    response.send("Welcome to Louis' Playlist app!");  
+    response.json(info);
   },
 };
 
